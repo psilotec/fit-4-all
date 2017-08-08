@@ -4,7 +4,7 @@ import Link from 'gatsby-link';
 import Helmet from 'react-helmet';
 import Footer from '../pages/footer';
 
-import './index.css';
+import './index.scss';
 
 const Header = () =>
   <div
