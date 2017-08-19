@@ -1,7 +1,12 @@
 /* Custom styles */
+
+$white-t: #f7f8f6;
+$success-t: rgb(96, 165, 98);
+$accent-t: #888d86;
+
 .main-content {
   min-height: 200vh;
-  background: #f7f8f6;
+  background: $white-t;
   display: flex;
   flex-direction: column;
   align-items: stretch;
@@ -17,7 +22,7 @@
 
 .accent-section {
   height: 30em;
-  background: #888d86;
+  background: $accent-t;
   width: 100%;
   display: flex;
   justify-content: space-around;
@@ -26,7 +31,7 @@
 
 .white-section {
   height: 45em;
-  background: #f7f8f6;
+  background: $white-t;
   width: 100%;
 }
 
@@ -43,7 +48,7 @@
 }
 
 .success-button {
-  background-color: rgb(96, 165, 98);
+  background-color: $success-t;
   height: 30px;
   width: 85px;
   border: none;
