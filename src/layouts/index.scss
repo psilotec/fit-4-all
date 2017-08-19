@@ -3,6 +3,7 @@
 $white-t: #f7f8f6;
 $success-t: rgb(96, 165, 98);
 $accent-t: #888d86;
+$footer-t: #2c282e;
 
 .main-content {
   min-height: 200vh;
@@ -56,6 +57,15 @@ $accent-t: #888d86;
   box-shadow: 0 14px 26px -12px rgba(76, 175, 80, 0.42),
     0 4px 23px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(76, 175, 80, 0.2);
   color: white;
+}
+
+.footer {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 200px;
+  background: $footer-t;
+  color: #fff;
 }
 
 /* --------------*/

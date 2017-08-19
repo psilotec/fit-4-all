@@ -23,7 +23,6 @@ const Header = () =>
         <div
           style={{
             margin: '0 auto',
-            maxWidth: 960,
             padding: '1.45rem 1.0875rem',
           }}
         >
@@ -60,6 +59,9 @@ const TemplateWrapper = ({ children }) =>
       }}
     >
       {children()}
+    </div>
+    <div className="footer">
+      <div className="row">Footer Content</div>
     </div>
   </div>;
 
