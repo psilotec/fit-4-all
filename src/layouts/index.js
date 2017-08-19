@@ -10,16 +10,7 @@ import './index.scss';
 const Header = () =>
   <div>
     <Headroom>
-      <div
-        style={{
-          background: '#8D8C8C',
-          fontFamily: 'Work Sans,sans-serif',
-          boxShadow: 'rgba(0, 0, 0, 0.25) 1px 1px',
-          height: '75px',
-          fontSize: '3em',
-          color: 'white',
-        }}
-      >
+      <div className="header">
         <div
           style={{
             margin: '0 auto',

@@ -1,9 +1,19 @@
 /* Custom styles */
 
+$header-t: #8d8c8c;
 $white-t: #f7f8f6;
-$success-t: rgb(96, 165, 98);
 $accent-t: #888d86;
 $footer-t: #2c282e;
+$success-t: rgb(96, 165, 98);
+
+.header {
+  background: $header-t;
+  fontFamily: Work Sans, sans-serif;
+  boxShadow: rgba(0, 0, 0, 0.25) 1px 1px;
+  height: 75px;
+  fontSize: 3em;
+  color: white;
+}
 
 .main-content {
   min-height: 200vh;
