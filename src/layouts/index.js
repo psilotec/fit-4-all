@@ -2,33 +2,16 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Link from 'gatsby-link';
 import Helmet from 'react-helmet';
-import Footer from '../pages/footer';
 import Headroom from 'react-headroom';
 
+import logo from '../images/ffaLogo.png';
 import './index.scss';
 
 const Header = () =>
   <div>
     <Headroom>
       <div className="header">
-        <div
-          style={{
-            margin: '0 auto',
-            padding: '1.45rem 1.0875rem',
-          }}
-        >
-          <h1 style={{ margin: 0 }}>
-            <Link
-              to="/"
-              style={{
-                color: 'white',
-                textDecoration: 'none',
-              }}
-            >
-              Frascati Fit 4 All
-            </Link>
-          </h1>
-        </div>
+        <img src={logo} className="header-logo" alt="FF4A Logo" />
       </div>
     </Headroom>
   </div>;
